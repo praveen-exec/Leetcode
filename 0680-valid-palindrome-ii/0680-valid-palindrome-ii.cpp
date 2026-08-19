@@ -6,7 +6,7 @@ class Solution {
 
         while (start <= end) {
            if (s[start] != s[end])
-                return isPalindrome(s, start + 1, end) ||                                isPalindrome(s, start, end - 1);
+                return isPalindrome(s, start + 1, end) || isPalindrome(s, start, end - 1); //if start and end not check by removing 1 character
             start++;
             end--;
         }
