@@ -36,9 +36,15 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
+| [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
