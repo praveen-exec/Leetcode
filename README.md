@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0766-toeplitz-matrix](https://github.com/praveen-exec/Leetcode/tree/master/0766-toeplitz-matrix) |
 ## Hash Table
 |  |
 | ------- |
@@ -48,4 +49,8 @@
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
+## Matrix
+|  |
+| ------- |
+| [0766-toeplitz-matrix](https://github.com/praveen-exec/Leetcode/tree/master/0766-toeplitz-matrix) |
 <!---LeetCode Topics End-->
