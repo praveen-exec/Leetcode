@@ -116,8 +116,8 @@ Then expand outward.
 
 ```text
 a b | b a
-↑       ↑
-left   right
+  ↑   ↑
+left  right
 ```
 
 ---
