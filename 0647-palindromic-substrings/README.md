@@ -32,7 +32,347 @@
 
 
 # SOLUTION
-# Count Palindromic Substrings
+
+# Count Palindromic Substrings — Brute Force
+
+## Problem
+
+Given a string `s`, count the number of **palindromic substrings** in the string.
+
+A palindrome is a string that reads the same from left to right and right to left.
+
+### Example
+
+```text
+Input:
+s = "aaa"
+
+Palindromic substrings:
+"a", "a", "a", "aa", "aa", "aaa"
+
+Output:
+6
+```
+
+---
+
+## Approach: Brute Force
+
+The brute force approach is simple:
+
+1. Generate **all possible substrings** of the given string.
+2. Check whether each substring is a palindrome.
+3. If it is a palindrome, increment the count.
+4. Return the final count.
+
+### Basic Idea
+
+```text
+String
+  ↓
+Generate all substrings
+  ↓
+Check each substring
+  ↓
+Is it a palindrome?
+  ↓
+Yes → count++
+  ↓
+Return count
+```
+
+---
+
+## Generating All Substrings
+
+Two nested loops are used:
+
+```cpp
+for (int i = 0; i < s.length(); i++) {
+    for (int j = i; j < s.length(); j++) {
+```
+
+Here:
+
+* `i` = starting index
+* `j` = ending index
+
+For each pair of `i` and `j`, we create a substring:
+
+```cpp
+string temp = s.substr(i, j - i + 1);
+```
+
+### `substr()` Explanation
+
+The syntax is:
+
+```cpp
+s.substr(start, length)
+```
+
+Therefore:
+
+```cpp
+s.substr(i, j - i + 1)
+```
+
+means:
+
+```text
+Start  = i
+Length = j - i + 1
+```
+
+For example:
+
+```text
+s = "abcde"
+i = 1
+j = 3
+```
+
+Then:
+
+```cpp
+s.substr(1, 3)
+```
+
+gives:
+
+```text
+"bcd"
+```
+
+---
+
+## Checking Palindrome
+
+A separate function `ispalindrome()` checks whether a substring is a palindrome.
+
+Two pointers are used:
+
+```cpp
+int start = 0;
+int end = s.length() - 1;
+```
+
+The characters at both ends are compared.
+
+```cpp
+if (s[start++] != s[end--])
+    return false;
+```
+
+If the characters are different, the string is not a palindrome.
+
+If all corresponding characters match:
+
+```cpp
+return true;
+```
+
+### Example
+
+For:
+
+```text
+"abba"
+```
+
+```text
+a b b a
+↑     ↑
+start end
+```
+
+Compare:
+
+```text
+a == a
+b == b
+```
+
+Therefore `"abba"` is a palindrome.
+
+---
+
+## Complete Code
+
+```cpp
+class Solution {
+public:
+
+    bool ispalindrome(string &s) {
+        int start = 0;
+        int end = s.length() - 1;
+
+        while (start < end) {
+            if (s[start++] != s[end--])
+                return false;
+        }
+
+        return true;
+    }
+
+    int countSubstrings(string s) {
+
+        int count = 0;
+
+        // Generate all substrings
+        for (int i = 0; i < s.length(); i++) {
+
+            for (int j = i; j < s.length(); j++) {
+
+                // Create substring
+                string temp = s.substr(i, j - i + 1);
+
+                // Check if palindrome
+                if (ispalindrome(temp)) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+};
+```
+
+---
+
+## Dry Run
+
+Consider:
+
+```text
+s = "aba"
+```
+
+### Generate substrings
+
+For `i = 0`:
+
+```text
+"a"
+"ab"
+"aba"
+```
+
+For `i = 1`:
+
+```text
+"b"
+"ba"
+```
+
+For `i = 2`:
+
+```text
+"a"
+```
+
+Total substrings:
+
+```text
+6
+```
+
+Now check each:
+
+| Substring | Palindrome? |
+| --------- | ----------- |
+| `"a"`     | Yes         |
+| `"ab"`    | No          |
+| `"aba"`   | Yes         |
+| `"b"`     | Yes         |
+| `"ba"`    | No          |
+| `"a"`     | Yes         |
+
+Therefore:
+
+```text
+Answer = 4
+```
+
+---
+
+## Why Is This Brute Force?
+
+This solution does not use any special optimization.
+
+It simply:
+
+```text
+Try every substring
+       ↓
+Check every substring
+       ↓
+Count the palindromes
+```
+
+We check even the substrings that are obviously not palindromes.
+
+That is why this is called the **Brute Force approach**.
+
+---
+
+## Complexity Analysis
+
+There are `O(n²)` possible substrings.
+
+For every substring, checking whether it is a palindrome can take `O(n)` time.
+
+Therefore:
+
+### Time Complexity
+
+```text
+O(n³)
+```
+
+### Space Complexity
+
+The temporary substring can contain up to `n` characters:
+
+```text
+O(n)
+```
+
+---
+
+## Key Points
+
+* Use **two nested loops** to generate all substrings.
+* Use `substr(i, j - i + 1)` to create each substring.
+* Use **two pointers** to check whether the substring is a palindrome.
+* Increment `count` whenever a palindrome is found.
+* This is a **Brute Force** solution.
+* Time complexity is **O(n³)**.
+* Space complexity is **O(n)**.
+
+## Summary
+
+```text
+             Given String
+                  ↓
+          Generate substrings
+                  ↓
+          Check palindrome
+             ↙          ↘
+           Yes           No
+            ↓             ↓
+         count++        Ignore
+            ↓             ↓
+            └──────┬──────┘
+                   ↓
+              Next substring
+                   ↓
+              Return count
+```
+
+
+# Count Palindromic Substrings ==> OPTIMIZED
 
 ## Problem
 
