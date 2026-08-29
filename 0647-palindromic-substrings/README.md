@@ -31,7 +31,7 @@
 
 
 
-**SOLUTION**
+# SOLUTION
 # Count Palindromic Substrings
 
 ## Problem
