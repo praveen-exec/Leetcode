@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/praveen-exec/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -14,6 +15,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
@@ -103,4 +105,8 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
+## Sliding Window
+|  |
+| ------- |
+| [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 <!---LeetCode Topics End-->
