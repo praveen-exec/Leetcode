@@ -11,6 +11,7 @@
 | [0605-can-place-flowers](https://github.com/praveen-exec/Leetcode/tree/master/0605-can-place-flowers) |
 | [0766-toeplitz-matrix](https://github.com/praveen-exec/Leetcode/tree/master/0766-toeplitz-matrix) |
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Hash Table
@@ -31,6 +32,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -85,6 +87,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Memoization
 |  |
 | ------- |
@@ -113,4 +116,8 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
+## Binary Search
+|  |
+| ------- |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 <!---LeetCode Topics End-->
