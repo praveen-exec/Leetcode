@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/praveen-exec/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -87,6 +88,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
+| [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -126,4 +128,16 @@
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
