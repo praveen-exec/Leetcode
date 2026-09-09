@@ -65,6 +65,7 @@
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
 | [3110-score-of-a-string](https://github.com/praveen-exec/Leetcode/tree/master/3110-score-of-a-string) |
@@ -87,6 +88,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
+| [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Memoization
 |  |
@@ -120,4 +122,8 @@
 |  |
 | ------- |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
