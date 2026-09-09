@@ -10,7 +10,7 @@ public:
         for (int i = 1; i <= amount; i++) {
 
             for (int coin : coins) {
-
+                //we are checking if coin is less than  equal to amount i 
                 if (coin <= i) {
                     dp[i] = min(dp[i],
                                 dp[i - coin] + 1);
