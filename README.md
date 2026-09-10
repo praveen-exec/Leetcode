@@ -56,6 +56,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
@@ -64,6 +65,7 @@
 | ------- |
 | [0058-length-of-last-word](https://github.com/praveen-exec/Leetcode/tree/master/0058-length-of-last-word) |
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -89,6 +91,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
