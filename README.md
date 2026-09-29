@@ -94,6 +94,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
+| [0319-bulb-switcher](https://github.com/praveen-exec/Leetcode/tree/master/0319-bulb-switcher) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Dynamic Programming
 |  |
@@ -158,4 +159,8 @@
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/praveen-exec/Leetcode/tree/master/0796-rotate-string) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/praveen-exec/Leetcode/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
