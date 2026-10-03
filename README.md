@@ -21,6 +21,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0290-word-pattern](https://github.com/praveen-exec/Leetcode/tree/master/0290-word-pattern) |
@@ -62,6 +63,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -94,6 +96,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
+| [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0319-bulb-switcher](https://github.com/praveen-exec/Leetcode/tree/master/0319-bulb-switcher) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Dynamic Programming
@@ -163,4 +166,8 @@
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/praveen-exec/Leetcode/tree/master/0319-bulb-switcher) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
