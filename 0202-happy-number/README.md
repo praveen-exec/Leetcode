@@ -256,33 +256,8 @@ If we reach **1** → `true`
 
 # Happy Number — Floyd's Cycle Detection
 
-## Problem
 
-A **Happy Number** is a positive integer that eventually becomes `1` when repeatedly replaced by the **sum of the squares of its digits**.
-
-If the process enters a cycle that does not contain `1`, the number is **not a Happy Number**.
-
-### Example
-
-For `19`:
-
-```text
-19
-→ 1² + 9² = 82
-→ 8² + 2² = 68
-→ 6² + 8² = 100
-→ 1² + 0² + 0² = 1
-```
-
-Therefore:
-
-```text
-19 → Happy Number
-```
-
----
-
-# Approach
+# Approach 2
 
 We use **Floyd's Cycle Detection Algorithm**, also known as the:
 
