@@ -1,25 +1,33 @@
 class Solution {
 public:
-    bool isHappy(int n) {
-        set<int> seen;
+    //Time : O(logn)  Space: O(1)
+    int nextSum(int n){
+        int sum=0;
+        
+        while(n > 0){
 
-        while (n != 1) {
-            if (seen.count(n))
-                return false;
+         int digit = n % 10;
+         sum += digit * digit;
+         n /=10;
 
-            seen.insert(n);
-
-            int sum = 0;
-
-            while (n > 0) {
-                int a = n % 10;
-                sum += a * a;
-                n /= 10;
-            }
-
-            n = sum;
         }
+        return sum;
+    }
 
-        return true;
+    //Floyd's Cycle Detection Algorithm
+    bool isHappy(int n) {
+        int slow=n;
+        int fast=n;
+
+        while(true){
+            slow=nextSum(slow);
+            fast=nextSum(nextSum(fast));
+
+            if(fast == 1) 
+              return true;
+            
+            if(slow == fast)
+              return false;
+        }
     }
 };
