@@ -143,11 +143,6 @@ public:
 };
 ```
 
-> **Note:** If you are using LeetCode, make sure `set` is available through the required header:
->
-> ```cpp
-> #include <set>
-> ```
 
 ---
 
