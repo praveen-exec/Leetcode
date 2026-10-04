@@ -253,3 +253,394 @@ If **yes** → cycle → `false`
 
 If we reach **1** → `true`
 
+
+# Happy Number — Floyd's Cycle Detection
+
+## Problem
+
+A **Happy Number** is a positive integer that eventually becomes `1` when repeatedly replaced by the **sum of the squares of its digits**.
+
+If the process enters a cycle that does not contain `1`, the number is **not a Happy Number**.
+
+### Example
+
+For `19`:
+
+```text
+19
+→ 1² + 9² = 82
+→ 8² + 2² = 68
+→ 6² + 8² = 100
+→ 1² + 0² + 0² = 1
+```
+
+Therefore:
+
+```text
+19 → Happy Number
+```
+
+---
+
+# Approach
+
+We use **Floyd's Cycle Detection Algorithm**, also known as the:
+
+> **Slow and Fast Pointer Algorithm**
+
+Instead of storing all previously visited numbers in a `set`, we use two variables:
+
+* `slow` moves **one step** at a time.
+* `fast` moves **two steps** at a time.
+
+```text
+slow = nextSum(slow)
+
+fast = nextSum(nextSum(fast))
+```
+
+If there is a cycle:
+
+```text
+slow == fast
+```
+
+If the sequence reaches:
+
+```text
+fast == 1
+```
+
+then the number is happy.
+
+---
+
+## Why Does Floyd's Algorithm Work?
+
+Consider a cycle:
+
+```text
+        ┌──────────────┐
+        ↓              │
+A → B → C → D → E → F ─┘
+```
+
+The slow pointer moves:
+
+```text
+A → B → C → D → E → F
+```
+
+The fast pointer moves:
+
+```text
+A → C → E → B → D → F
+```
+
+Since `fast` moves faster than `slow`, once both pointers enter the cycle, they will eventually meet.
+
+Therefore:
+
+```text
+slow == fast
+```
+
+means a cycle exists.
+
+---
+
+# Code
+
+```cpp
+class Solution {
+public:
+    // Time: O(log n)
+    // Space: O(1)
+    int nextSum(int n) {
+        int sum = 0;
+
+        while (n > 0) {
+
+            int digit = n % 10;
+            sum += digit * digit;
+            n /= 10;
+        }
+
+        return sum;
+    }
+
+    // Floyd's Cycle Detection Algorithm
+    bool isHappy(int n) {
+        int slow = n;
+        int fast = n;
+
+        while (true) {
+
+            // Slow moves one step
+            slow = nextSum(slow);
+
+            // Fast moves two steps
+            fast = nextSum(nextSum(fast));
+
+            // Reached 1 → Happy Number
+            if (fast == 1)
+                return true;
+
+            // Cycle detected
+            if (slow == fast)
+                return false;
+        }
+    }
+};
+```
+
+---
+
+# Dry Run
+
+## Example 1: `n = 19`
+
+Initially:
+
+```text
+slow = 19
+fast = 19
+```
+
+### Iteration 1
+
+Slow:
+
+```text
+slow = nextSum(19)
+     = 1² + 9²
+     = 82
+```
+
+Fast:
+
+```text
+fast = nextSum(nextSum(19))
+
+nextSum(19) = 82
+nextSum(82) = 68
+
+fast = 68
+```
+
+So:
+
+```text
+slow = 82
+fast = 68
+```
+
+---
+
+### Iteration 2
+
+Slow:
+
+```text
+slow = nextSum(82)
+     = 68
+```
+
+Fast:
+
+```text
+fast = nextSum(nextSum(68))
+
+nextSum(68) = 100
+nextSum(100) = 1
+
+fast = 1
+```
+
+Since:
+
+```cpp
+if (fast == 1)
+    return true;
+```
+
+Output:
+
+```text
+true
+```
+
+Therefore, `19` is a Happy Number.
+
+---
+
+# Example 2: `n = 2`
+
+The sequence is:
+
+```text
+2 → 4 → 16 → 37 → 58 → 89 → 145
+  → 42 → 20 → 4 → ...
+```
+
+Notice that `4` appears again.
+
+Therefore, the sequence contains a cycle:
+
+```text
+4 → 16 → 37 → 58 → 89 → 145 → 42 → 20
+↑                                             ↓
+└─────────────────────────────────────────────┘
+```
+
+Eventually:
+
+```text
+slow == fast
+```
+
+Therefore:
+
+```text
+return false;
+```
+
+So `2` is **not a Happy Number**.
+
+---
+
+# Complexity Analysis
+
+## `nextSum()`
+
+Suppose `n` has `d` digits.
+
+We process every digit once:
+
+```text
+Time = O(d)
+```
+
+Since the number of digits is:
+
+```text
+d = O(log n)
+```
+
+we can write:
+
+```text
+Time = O(log n)
+```
+
+---
+
+## `isHappy()`
+
+We use two pointers:
+
+```text
+slow
+fast
+```
+
+No extra data structure is used.
+
+Therefore:
+
+```text
+Space = O(1)
+```
+
+The overall commonly stated complexity is:
+
+```text
+Time:  O(log n)
+Space: O(1)
+```
+
+---
+
+# Why Is Space O(1)?
+
+In the previous approach, we used:
+
+```cpp
+set<int> seen;
+```
+
+which stored previously visited numbers.
+
+Therefore:
+
+```text
+Space = O(log n)
+```
+
+Here, we only use:
+
+```cpp
+int slow;
+int fast;
+```
+
+No matter how large `n` becomes, we only use a constant number of variables.
+
+Therefore:
+
+```text
+Space = O(1)
+```
+
+### Comparison
+
+| Approach          | Cycle Detection       |      Space |
+| ----------------- | --------------------- | ---------: |
+| `set`             | Store visited numbers | `O(log n)` |
+| Floyd's Algorithm | Slow + Fast pointers  |     `O(1)` |
+
+---
+
+# Key Idea
+
+The main trick is to treat the sequence of numbers as a **linked list**:
+
+```text
+n → nextSum(n) → nextSum(nextSum(n)) → ...
+```
+
+There are only two possibilities:
+
+### Case 1: Reaches `1`
+
+```text
+n → ... → 1
+```
+
+Therefore:
+
+```text
+Happy Number
+```
+
+### Case 2: Enters a cycle
+
+```text
+n → ... → A → B → C
+          ↑       ↓
+          └───────┘
+```
+
+Therefore:
+
+```text
+Not a Happy Number
+```
+
+Floyd's algorithm detects the second case without using extra memory.
+
+---
+
+
+
+
