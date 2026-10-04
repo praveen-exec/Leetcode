@@ -63,6 +63,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/praveen-exec/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
@@ -72,6 +73,7 @@
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/praveen-exec/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0058-length-of-last-word](https://github.com/praveen-exec/Leetcode/tree/master/0058-length-of-last-word) |
 | [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
@@ -104,6 +106,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/praveen-exec/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/praveen-exec/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/praveen-exec/Leetcode/tree/master/0213-house-robber-ii) |
@@ -172,4 +175,8 @@
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/praveen-exec/Leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
