@@ -28,25 +28,6 @@
 
 # Longest Palindromic Substring
 
-## Problem
-
-Given a string `s`, find the **longest palindromic substring** in `s`.
-
-A palindrome is a string that reads the same forward and backward.
-
-### Examples
-
-```text
-Input:  "babad"
-Output: "bab"
-```
-
-```text
-Input:  "cbbd"
-Output: "bb"
-```
-
----
 
 ## Approach: Expand Around Center
 
