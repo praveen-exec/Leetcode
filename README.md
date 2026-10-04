@@ -63,6 +63,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -72,6 +73,7 @@
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/praveen-exec/Leetcode/tree/master/0058-length-of-last-word) |
+| [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/praveen-exec/Leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
