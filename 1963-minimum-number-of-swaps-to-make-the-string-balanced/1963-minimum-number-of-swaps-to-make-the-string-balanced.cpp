@@ -21,10 +21,8 @@ public:
         
          else
            c++;
-           
-        }
 
-        if( c<=0) return 0;
+        }
         
         //if closing brackets is odd then c/2 + 1
         if(c & 1)
