@@ -28,3 +28,31 @@ public:
 
     }
 };
+
+//Solution 2
+class Solution {
+public:
+    int minSwaps(string s) {
+
+        int balance = 0;
+        int c = 0;   // unmatched closing brackets
+
+        for(char ch : s) {
+
+            if(ch == '[') {
+                balance++;
+            }
+            else {
+                balance--;
+
+                // extra closing bracket
+                if(balance < 0) {
+                    c++;
+                    balance = 0;
+                }
+            }
+        }
+
+        return (c + 1) / 2;
+    }
+};
