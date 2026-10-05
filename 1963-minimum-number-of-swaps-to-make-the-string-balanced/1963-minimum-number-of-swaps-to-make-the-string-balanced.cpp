@@ -24,12 +24,7 @@ public:
 
         }
         
-        //if closing brackets is odd then c/2 + 1
-        if(c & 1)
-         return c/2 + 1;
-        
-        else
-         return c/2;
+    return (c + 1) / 2;
 
     }
 };
