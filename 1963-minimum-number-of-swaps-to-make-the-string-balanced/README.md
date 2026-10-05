@@ -55,23 +55,6 @@ The resulting string is &quot;[[][]]&quot;.
 
 # Minimum Swaps to Balance Brackets
 
-## Problem
-
-Given a string `s` containing only `[` and `]`, find the **minimum number of swaps** required to make the bracket string balanced.
-
-If the length of the string is odd, it is impossible to balance the string, so return `-1`.
-
-### Example
-
-```text
-Input:  s = "[]][]["
-
-Output: 1
-```
-
-By swapping the appropriate brackets, the string can be made balanced.
-
----
 
 # Solution 1: Using Stack
 
