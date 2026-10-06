@@ -50,3 +50,237 @@
 	<li><code>t.length == s.length</code></li>
 	<li><code>s</code> and <code>t</code> consist of any valid ascii character.</li>
 </ul>
+
+
+## Approach
+
+We maintain **two maps**:
+
+```cpp
+map<char, char> s1;
+map<char, char> s2;
+```
+
+### 1. `s1` — Mapping from `s` to `t`
+
+```text
+s1[ch1] = ch2
+```
+
+It ensures that a character from `s` always maps to the same character in `t`.
+
+### 2. `s2` — Mapping from `t` to `s`
+
+```text
+s2[ch2] = ch1
+```
+
+This prevents two different characters from `s` mapping to the same character in `t`.
+
+For example:
+
+```text
+s = "ab"
+t = "aa"
+```
+
+We get:
+
+```text
+a → a
+b → a
+```
+
+This is invalid because both `a` and `b` cannot map to the same character.
+
+The second map detects this.
+
+---
+
+## Algorithm
+
+For every index `i`:
+
+1. Take:
+
+   ```cpp
+   ch1 = s[i]
+   ch2 = t[i]
+   ```
+
+2. Check whether `ch1` was already mapped.
+
+   * If yes, its existing mapping must be `ch2`.
+   * Otherwise, return `false`.
+
+3. Check whether `ch2` was already mapped.
+
+   * If yes, it must be mapped back to `ch1`.
+   * Otherwise, return `false`.
+
+4. Store both mappings:
+
+   ```cpp
+   s1[ch1] = ch2;
+   s2[ch2] = ch1;
+   ```
+
+5. If all characters satisfy the mapping, return `true`.
+
+---
+
+## Code
+
+```cpp
+class Solution {
+public:
+    bool isIsomorphic(string s, string t) {
+        map<char, char> s1;
+        map<char, char> s2;
+
+        for (int i = 0; i < s.size(); i++) {
+            char ch1 = s[i];
+            char ch2 = t[i];
+
+            if (s1.find(ch1) != s1.end() && s1[ch1] != ch2 ||
+                s2.find(ch2) != s2.end() && s2[ch2] != ch1)
+                return false;
+
+            // Mapping the character if not mapped
+            s1[ch1] = ch2;
+            s2[ch2] = ch1;
+        }
+
+        return true;
+    }
+};
+```
+
+---
+
+## Dry Run
+
+### Example
+
+```text
+s = "paper"
+t = "title"
+```
+
+| `i` | `s[i]` | `t[i]` | Mapping |
+| --: | :----: | :----: | :------ |
+|   0 |    p   |    t   | p → t   |
+|   1 |    a   |    i   | a → i   |
+|   2 |    p   |    t   | p → t ✓ |
+|   3 |    e   |    l   | e → l   |
+|   4 |    r   |    e   | r → e   |
+
+All mappings are consistent.
+
+Therefore:
+
+```text
+Output: true
+```
+
+---
+
+## Invalid Example
+
+```text
+s = "foo"
+t = "bar"
+```
+
+Mappings start as:
+
+```text
+f → b
+o → a
+```
+
+At the last character:
+
+```text
+o → r
+```
+
+But `o` was already mapped to `a`.
+
+So the mapping is inconsistent.
+
+```text
+Output: false
+```
+
+---
+
+## Complexity Analysis
+
+Using `map<char, char>`:
+
+### Time Complexity
+
+Each `map` operation takes:
+
+```text
+O(log K)
+```
+
+where `K` is the number of distinct characters.
+
+For `n` characters:
+
+```text
+O(n log K)
+```
+
+Since the character set is limited, this can effectively be considered:
+
+```text
+O(n)
+```
+
+### Space Complexity
+
+We store mappings for the characters:
+
+```text
+O(K)
+```
+
+For a fixed character set, this is effectively:
+
+```text
+O(1)
+```
+
+---
+
+## Key Idea
+
+The most important concept is:
+
+> **Mapping must work in both directions.**
+
+We need:
+
+```text
+s → t
+```
+
+and
+
+```text
+t → s
+```
+
+The first map checks **consistent mapping**, while the second map checks **one-to-one mapping**.
+
+```text
+s1: s → t
+s2: t → s
+```
+
+Both together ensure that the strings are truly isomorphic.
+
