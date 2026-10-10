@@ -12,6 +12,7 @@
 | [0485-max-consecutive-ones](https://github.com/praveen-exec/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0605-can-place-flowers](https://github.com/praveen-exec/Leetcode/tree/master/0605-can-place-flowers) |
+| [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 | [0766-toeplitz-matrix](https://github.com/praveen-exec/Leetcode/tree/master/0766-toeplitz-matrix) |
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -138,6 +139,7 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Monotonic Stack
 |  |
@@ -187,4 +189,8 @@
 |  |
 | ------- |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
+## Simulation
+|  |
+| ------- |
+| [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 <!---LeetCode Topics End-->
