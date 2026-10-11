@@ -16,7 +16,8 @@ public:
 
             int temp= guess(mid);
 
-            if(temp == 0) return mid;
+            if(temp == 0) 
+             return mid;
 
             else if( temp== -1)
              end=mid-1;
@@ -25,6 +26,6 @@ public:
              start=mid+1;
         
         }
-      return 0;
+      return -1;
     }
 };
