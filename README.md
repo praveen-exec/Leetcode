@@ -152,6 +152,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/praveen-exec/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Longest Common Subsequence
 |  |
@@ -193,4 +194,8 @@
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/praveen-exec/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
