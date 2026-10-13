@@ -31,6 +31,7 @@
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
+| [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Divide and Conquer
 |  |
@@ -58,6 +59,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
+| [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Quickselect
 |  |
@@ -88,6 +90,7 @@
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/praveen-exec/Leetcode/tree/master/0796-rotate-string) |
 | [1143-longest-common-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/1143-longest-common-subsequence) |
+| [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
