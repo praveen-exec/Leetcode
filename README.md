@@ -86,6 +86,7 @@
 | [0290-word-pattern](https://github.com/praveen-exec/Leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
+| [0412-fizz-buzz](https://github.com/praveen-exec/Leetcode/tree/master/0412-fizz-buzz) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/praveen-exec/Leetcode/tree/master/0796-rotate-string) |
@@ -111,6 +112,7 @@
 | [0070-climbing-stairs](https://github.com/praveen-exec/Leetcode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0319-bulb-switcher](https://github.com/praveen-exec/Leetcode/tree/master/0319-bulb-switcher) |
+| [0412-fizz-buzz](https://github.com/praveen-exec/Leetcode/tree/master/0412-fizz-buzz) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Dynamic Programming
 |  |
@@ -198,6 +200,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/praveen-exec/Leetcode/tree/master/0412-fizz-buzz) |
 | [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 ## Interactive
 |  |
