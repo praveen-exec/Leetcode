@@ -12,6 +12,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/praveen-exec/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/praveen-exec/Leetcode/tree/master/0500-keyboard-row) |
 | [0605-can-place-flowers](https://github.com/praveen-exec/Leetcode/tree/master/0605-can-place-flowers) |
 | [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 | [0766-toeplitz-matrix](https://github.com/praveen-exec/Leetcode/tree/master/0766-toeplitz-matrix) |
@@ -31,6 +32,7 @@
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/praveen-exec/Leetcode/tree/master/0500-keyboard-row) |
 | [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Divide and Conquer
@@ -87,6 +89,7 @@
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/praveen-exec/Leetcode/tree/master/0412-fizz-buzz) |
+| [0500-keyboard-row](https://github.com/praveen-exec/Leetcode/tree/master/0500-keyboard-row) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/praveen-exec/Leetcode/tree/master/0796-rotate-string) |
