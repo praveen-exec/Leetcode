@@ -20,6 +20,7 @@
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/praveen-exec/Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
+| [3151-special-array-i](https://github.com/praveen-exec/Leetcode/tree/master/3151-special-array-i) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Hash Table
 |  |
