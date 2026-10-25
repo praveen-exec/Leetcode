@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/praveen-exec/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/praveen-exec/Leetcode/tree/master/0016-3sum-closest) |
 | [0198-house-robber](https://github.com/praveen-exec/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/praveen-exec/Leetcode/tree/master/0213-house-robber-ii) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -47,6 +48,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/praveen-exec/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/praveen-exec/Leetcode/tree/master/0016-3sum-closest) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -77,6 +79,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/praveen-exec/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/praveen-exec/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/praveen-exec/Leetcode/tree/master/0016-3sum-closest) |
 | [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
