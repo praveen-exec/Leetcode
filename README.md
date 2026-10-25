@@ -9,6 +9,7 @@
 | [0198-house-robber](https://github.com/praveen-exec/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/praveen-exec/Leetcode/tree/master/0213-house-robber-ii) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
 | [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -31,6 +32,7 @@
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/praveen-exec/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/praveen-exec/Leetcode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
@@ -49,6 +51,7 @@
 | ------- |
 | [0015-3sum](https://github.com/praveen-exec/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/praveen-exec/Leetcode/tree/master/0016-3sum-closest) |
+| [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -66,6 +69,7 @@
 ## Counting
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/praveen-exec/Leetcode/tree/master/0383-ransom-note) |
 | [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -229,4 +233,8 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/0206-reverse-linked-list) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
