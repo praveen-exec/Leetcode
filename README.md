@@ -25,6 +25,7 @@
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/praveen-exec/Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
+| [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 | [3151-special-array-i](https://github.com/praveen-exec/Leetcode/tree/master/3151-special-array-i) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Hash Table
@@ -57,6 +58,7 @@
 | [0912-sort-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/praveen-exec/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
+| [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -95,6 +97,7 @@
 | [0977-squares-of-a-sorted-array](https://github.com/praveen-exec/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 ## String
 |  |
 | ------- |
@@ -184,6 +187,7 @@
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/praveen-exec/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
+| [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 ## Longest Common Subsequence
 |  |
 | ------- |
