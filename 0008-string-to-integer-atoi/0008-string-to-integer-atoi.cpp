@@ -25,7 +25,7 @@ public:
 
             int digit = s[i] - '0';
 
-            // Step 4: Handle overflow
+            // Step 4: Handle overflow. --> INT_MAX % 10 =7
             if(ans > INT_MAX / 10 ||
               (ans == INT_MAX / 10 && digit > INT_MAX % 10)) {
 
