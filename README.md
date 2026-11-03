@@ -11,6 +11,7 @@
 | [0213-house-robber-ii](https://github.com/praveen-exec/Leetcode/tree/master/0213-house-robber-ii) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/praveen-exec/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/praveen-exec/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/praveen-exec/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -95,6 +96,7 @@
 | [0125-valid-palindrome](https://github.com/praveen-exec/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/praveen-exec/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/praveen-exec/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/praveen-exec/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -194,6 +196,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/praveen-exec/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
@@ -225,6 +228,7 @@
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/praveen-exec/Leetcode/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Manacher
 |  |
 | ------- |
@@ -265,4 +269,12 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/praveen-exec/Leetcode/tree/master/0075-sort-colors) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
