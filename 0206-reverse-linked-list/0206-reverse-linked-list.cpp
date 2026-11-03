@@ -21,19 +21,22 @@
 
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev = nullptr;
-        ListNode* curr = head;
-        ListNode* nex = nullptr;
+ListNode* reverseList(ListNode* head) {
 
-        while(curr != nullptr){
-         nex = curr->next;
-         curr->next = prev;
+    ListNode* prev = nullptr;
+    ListNode* curr = head;
+    ListNode* nxt = nullptr;
 
-         prev=curr;
-         curr=nex;
-        }
-        head = prev;
-        return head;
+    while(curr != nullptr) {
+
+        nxt = curr->next;  // Store next node
+
+        curr->next = prev; // Reverse the link
+
+        prev = curr;       // Move prev forward
+        curr = nxt;        // Move curr forward
     }
+
+    return prev;
+}
 };
