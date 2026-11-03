@@ -10,22 +10,46 @@
  */
 class Solution {
 public:
+    // TC : O(N)
+    // SC : O(1)
+    typedef ListNode* node; //shortcut for ListNode*
     int pairSum(ListNode* head) {
-        vector<int> arr;
-        
-        while(head != nullptr){
-            arr.push_back(head->val);
-            head = head->next;
-        }
+     
+     //step 1 : find the middle node
 
-        int i=0,j=arr.size()-1;
-        int max_sum=INT_MIN,sum=0;
+     ListNode* slow=head;
+     ListNode* fast=head;
 
-        while(i < j){
-         sum=arr[i] + arr[j];
-         max_sum=max(max_sum,sum);
-         i++,j--;
-        }
-        return max_sum;
+     while(fast != nullptr && fast->next != nullptr){
+        slow=slow->next;
+        fast=fast->next->next;
+     }
+
+     //step 2 : reverse the second half ll
+     ListNode* prev = nullptr,
+          *curr = slow,
+          *nxt  = nullptr;
+
+    while(curr != nullptr){
+        nxt = curr->next;
+
+        curr->next=prev;
+
+        prev=curr;
+        curr=nxt;
+    }
+    int max_sum=INT_MIN,sum=0;
+    node n1=head;
+    node n2=prev;
+
+    while(n2 != nullptr){
+        sum = n1->val + n2->val;
+        max_sum=max(max_sum,sum);
+
+        n1=n1->next;
+        n2=n2->next;
+    }
+    return max_sum;
+
     }
 };
