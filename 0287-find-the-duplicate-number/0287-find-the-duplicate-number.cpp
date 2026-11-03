@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // TC : O(N)
+    // SC : O(1)
     int findDuplicate(vector<int>& nums) {
         int slow=0;
         int fast=0;
