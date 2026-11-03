@@ -105,6 +105,7 @@
 | [0977-squares-of-a-sorted-array](https://github.com/praveen-exec/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/praveen-exec/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/praveen-exec/Leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 ## String
@@ -187,6 +188,7 @@
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/praveen-exec/Leetcode/tree/master/0682-baseball-game) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/praveen-exec/Leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -256,6 +258,7 @@
 | [0206-reverse-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/praveen-exec/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
