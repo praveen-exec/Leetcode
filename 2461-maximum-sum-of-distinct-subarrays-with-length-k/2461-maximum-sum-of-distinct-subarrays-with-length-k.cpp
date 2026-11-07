@@ -10,7 +10,7 @@ public:
         for(int j = 0; j < n; j++) {
 
             // Remove duplicates from the current window
-            while(st.contains(nums[j])) {
+            while(st.count(nums[j])) {
                 sum -= nums[i];
                 st.erase(nums[i]);
                 i++;
