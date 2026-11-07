@@ -8,6 +8,7 @@
 | [0016-3sum-closest](https://github.com/praveen-exec/Leetcode/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/praveen-exec/Leetcode/tree/master/0075-sort-colors) |
 | [0198-house-robber](https://github.com/praveen-exec/Leetcode/tree/master/0198-house-robber) |
+| [0209-minimum-size-subarray-sum](https://github.com/praveen-exec/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/praveen-exec/Leetcode/tree/master/0213-house-robber-ii) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/praveen-exec/Leetcode/tree/master/0229-majority-element-ii) |
@@ -198,11 +199,13 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/praveen-exec/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/praveen-exec/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/praveen-exec/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/praveen-exec/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -287,4 +290,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/praveen-exec/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/praveen-exec/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
