@@ -26,6 +26,7 @@
 | [1046-last-stone-weight](https://github.com/praveen-exec/Leetcode/tree/master/1046-last-stone-weight) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/praveen-exec/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/praveen-exec/Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/praveen-exec/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2678-number-of-senior-citizens](https://github.com/praveen-exec/Leetcode/tree/master/2678-number-of-senior-citizens) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/praveen-exec/Leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 | [3151-special-array-i](https://github.com/praveen-exec/Leetcode/tree/master/3151-special-array-i) |
@@ -44,6 +45,7 @@
 | [0496-next-greater-element-i](https://github.com/praveen-exec/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/praveen-exec/Leetcode/tree/master/0500-keyboard-row) |
 | [1189-maximum-number-of-balloons](https://github.com/praveen-exec/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/praveen-exec/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3663-find-the-least-frequent-digit](https://github.com/praveen-exec/Leetcode/tree/master/3663-find-the-least-frequent-digit) |
 ## Divide and Conquer
 |  |
@@ -197,6 +199,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/praveen-exec/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/praveen-exec/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Binary Search
 |  |
 | ------- |
