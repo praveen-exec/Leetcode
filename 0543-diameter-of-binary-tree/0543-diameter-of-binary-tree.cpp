@@ -2,7 +2,6 @@
 class Solution {
 public:
     int solve(TreeNode* root, int& result) {
-
         if(root == NULL)
             return 0;
 
