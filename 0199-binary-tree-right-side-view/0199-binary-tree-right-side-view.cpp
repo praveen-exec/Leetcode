@@ -9,7 +9,6 @@ public:
             return ans;
 
         q.push(root);
-
         while (!q.empty()) {
             int qsize = q.size();
 
@@ -21,11 +20,8 @@ public:
                 if (i == qsize - 1)
                     ans.push_back(t->val);
 
-                if (t->left)
-                    q.push(t->left);
-
-                if (t->right)
-                    q.push(t->right);
+                if (t->left)  q.push(t->left);
+                if (t->right) q.push(t->right);
             }
         }
 
